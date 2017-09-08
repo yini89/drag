@@ -8,5 +8,6 @@ function drag(id) {
     obj.onmousedown = function () {
         disX = ev.pageX - obj.offsetLeft;
         disY = ev.pageY - obj.offsetTop;
+        alert(0);
     }
 }
