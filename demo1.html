@@ -5,15 +5,18 @@
     <title></title>
     <script src="drag.js"></script>
     <style>
-        #div1 { width: 100px; height: 100px; background: red; position: absolute;}
+        #div1 { width: 100px; height: 100px; background: red; position: absolute; left: 0;}
+        #div2 { width: 100px; height: 100px; background: blue; position: absolute; left: 150px;}
     </style>
     <script src="drag.js"></script>
 </head>
 <body>
     <div id="div1"></div>
+    <div id="div2"></div>
     
 </body>
 <script type="text/javascript">
 	drag('div1');
+	drag('div2');
 </script>
 </html>
